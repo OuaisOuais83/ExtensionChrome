@@ -32,7 +32,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Le nom commercial (sans « Claude » ni « Anthropic ») est choisi, le domaine de production définitif est enregistré et l'URL définitive du connecteur est fixée.
   4. Une page sécurité publique, sur ce domaine, affiche la formulation unique de confidentialité, sans le terme « bout en bout ».
   5. La base, le stockage de fichiers et les journaux sont créés en juridiction Union européenne, ce qui se vérifie dans la configuration de l'hébergeur.
-**Plans**: TBD
+**Plans:** 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Squelette : Worker OAuth (CIMD + DCR, PKCE) + MCP `ping`, conformité Claude, fumée locale (vague 1, contrôle de légitimité des paquets avant installation)
+- [ ] 01-02-PLAN.md — Instruments du spike (`markdown_image_probe` sur D1 UE, `measure_text` 5k/20k/50k), page `/securite`, SPIKE-LOG et courriel Anthropic (vague 2)
+- [ ] 01-03-PLAN.md — Nom, domaine et URL définitive (décision), compte Cloudflare, déploiement UE et mesures sur vrais comptes en fin de phase (vague 3)
 **UI hint**: yes
 **Research flag**: oui, la phase est elle-même la recherche (limites non documentées mesurées sur de vrais comptes). Écrire à `mcp-review@anthropic.com` dès cette phase pour obtenir une lecture écrite des clauses 1.G et 4.C de la politique d'annuaire.
 
