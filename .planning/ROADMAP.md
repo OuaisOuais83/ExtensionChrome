@@ -32,12 +32,16 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Le nom commercial (sans « Claude » ni « Anthropic ») est choisi, le domaine de production définitif est enregistré et l'URL définitive du connecteur est fixée.
   4. Une page sécurité publique, sur ce domaine, affiche la formulation unique de confidentialité, sans le terme « bout en bout ».
   5. La base, le stockage de fichiers et les journaux sont créés en juridiction Union européenne, ce qui se vérifie dans la configuration de l'hébergeur.
-**Plans:** 3 plans
+**Plans:** 7 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Squelette : Worker OAuth (CIMD + DCR, PKCE) + MCP `ping`, conformité Claude, fumée locale (vague 1, contrôle de légitimité des paquets avant installation)
-- [ ] 01-02-PLAN.md — Instruments du spike (`markdown_image_probe` sur D1 UE, `measure_text` 5k/20k/50k), page `/securite`, SPIKE-LOG et courriel Anthropic (vague 2)
-- [ ] 01-03-PLAN.md — Nom, domaine et URL définitive (décision), compte Cloudflare, déploiement UE et mesures sur vrais comptes en fin de phase (vague 3)
+- [ ] 01-01-PLAN.md — Contrôle de légitimité des paquets avant installation, échafaudage pnpm + configuration du Worker (journaux jamais conservés), démarrage dans workerd derrière le point unique de journalisation (vague 1)
+- [ ] 01-02-PLAN.md — Traceur : Worker OAuth (CIMD + DCR, PKCE) + MCP `ping`, aucune donnée personnelle dans KV, fumée HTTP réelle contre `wrangler dev` (vague 2)
+- [ ] 01-03-PLAN.md — Suite de conformité Claude (découverte, redirections, PKCE, rotation des jetons, deux époques du protocole), sans test marqué en échec attendu (vague 3)
+- [ ] 01-04-PLAN.md — Sonde d'image Markdown sur D1 + page de résultat, D1 et R2 déclarés en juridiction UE (vague 3, en parallèle de 01-03)
+- [ ] 01-05-PLAN.md — `measure_text` 5k/20k/50k, paquet partagé, corpus publics et empreintes de référence (vague 4)
+- [ ] 01-06-PLAN.md — Page `/securite` (formulation unique au futur), étape de fumée, SPIKE-LOG et courriel Anthropic (vague 5)
+- [ ] 01-07-PLAN.md — Nom, domaine et URL définitive (décision), compte Cloudflare, déploiement UE sans hôte provisoire et mesures sur vrais comptes en fin de phase (vague 6)
 **UI hint**: yes
 **Research flag**: oui, la phase est elle-même la recherche (limites non documentées mesurées sur de vrais comptes). Écrire à `mcp-review@anthropic.com` dès cette phase pour obtenir une lecture écrite des clauses 1.G et 4.C de la politique d'annuaire.
 
