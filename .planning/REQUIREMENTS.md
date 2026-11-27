@@ -117,13 +117,43 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (filled by roadmap) | | |
+| PLAT-01 | Phase 1 | Pending |
+| PLAT-02 | Phase 1 | Pending |
+| PLAT-03 | Phase 1 | Pending |
+| PLAT-04 | Phase 1 | Pending |
+| AUTH-01 | Phase 2 | Pending |
+| AUTH-02 | Phase 2 | Pending |
+| AUTH-03 | Phase 2 | Pending |
+| AUTH-04 | Phase 2 | Pending |
+| AUTH-05 | Phase 2 | Pending |
+| CONT-01 | Phase 3 | Pending |
+| CONT-02 | Phase 5 | Pending |
+| CONT-03 | Phase 3 | Pending |
+| SEND-01 | Phase 3 | Pending |
+| SEND-02 | Phase 3 | Pending |
+| SEND-03 | Phase 3 | Pending |
+| SEND-04 | Phase 5 | Pending |
+| SEND-05 | Phase 4 | Pending |
+| RECV-01 | Phase 3 | Pending |
+| RECV-02 | Phase 3 | Pending |
+| RECV-03 | Phase 4 | Pending |
+| RECV-04 | Phase 4 | Pending |
+| RECV-05 | Phase 4 | Pending |
+| RECV-06 | Phase 3 | Pending |
+| RECV-07 | Phase 5 | Pending |
+| SEC-01 | Phase 3 | Pending |
+| SEC-02 | Phase 4 | Pending |
+| INV-01 | Phase 6 | Pending |
+| INV-02 | Phase 6 | Pending |
+| INV-03 | Phase 6 | Pending |
+| INV-04 | Phase 6 | Pending |
+| CRED-01 | Phase 3 | Pending |
 
 **Coverage:**
 - v1 requirements: 31 total
-- Mapped to phases: 0
-- Unmapped: 31 ⚠️
+- Mapped to phases: 31
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-11-27*
-*Last updated: 2026-11-27 after initial definition*
+*Last updated: 2026-11-27 after roadmap creation (traceability filled)*
